@@ -15,3 +15,10 @@ body {
   background-color: wheat;
   text-align: center;
 }
+
+.garden {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 2px;
+  width: 600px;
+}
